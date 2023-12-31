@@ -40,7 +40,7 @@
 
 body {
 /*    background-color: #fdee00;*/
-  background-color: white;
+  background-color: #ffcff1;
 
     color: black;
     cursor: url('images/curs2.png'), default;
@@ -50,20 +50,7 @@ body {
     width: 8vw;
     position: fixed;
     left: 2%;
-    top: 3%;    
-}
-@media only screen 
-  and (min-device-width: 300px) 
-  and (max-device-width: 700px) 
-  and (-webkit-min-device-pixel-ratio: 2) {  
-.logo {
-display:none;
-    width: 20vw;
-    position: fixed;
-    left: 1%;
-    top: 2%; 
-    
-}
+    top: 3%; 
 }
 
 .about {
@@ -77,53 +64,6 @@ display:none;
     position: fixed;
     z-index: 0;
 }
-@media only screen 
-  and (min-device-width: 300px) 
-  and (max-device-width: 700px) 
-  and (-webkit-min-device-pixel-ratio: 2) {  
-.about {
-    display: none;
-overflow: visible;
-    width: 100%;
-    top: 2%;
-    left: 30%;
-    font-family: 'karrik';
-    font-size: 3vw;
-    line-height: 3vh;
-    position: fixed;
-    z-index: 0;
-}
-}
-
-.contact {
-    width: auto;
-    top: 27%;
-    left: 1.5%;
-    font-family: 'karrik';
-    font-size: 1.1vw;
-    line-height: 2.3vh;
-    position: fixed;
-    z-index: 0;
-}
-
-@media only screen 
-  and (min-device-width: 300px) 
-  and (max-device-width: 700px) 
-  and (-webkit-min-device-pixel-ratio: 2) {  
-.contact2{
-    width: auto;
-    height: 12%;
-    left: 2%;
-    top: 0%;
-    font-family: 'karrik';
-    color: black;
-    font-size: 4.7vw;
-    line-height: 3.5vh;
-    position: fixed;
-    z-index: 99999999;
-    background-color: white;
-      }
-} 
 
 .contact2 {
     width: auto;
@@ -136,12 +76,54 @@ overflow: visible;
     z-index: 0;
 }
 
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 700px) 
+  and (-webkit-min-device-pixel-ratio: 2) {  
+      
+.logo {
+display:none;
+    width: 20vw;
+    position: fixed;
+    left: 1%;
+    top: 2%;   
+}
+
+.about {
+    display: none;
+overflow: visible;
+    width: 100%;
+    top: 2%;
+    left: 30%;
+    font-family: 'karrik';
+    font-size: 3vw;
+    line-height: 3vh;
+    position: fixed;
+    z-index: 0;
+}
+  
+.contact2{
+    width: auto;
+    height: 14%;
+    left: 2%;
+    top: 0%;
+    font-family: 'karrik';
+    color: black;
+    font-size: 4.7vw;
+    line-height: 3.5vh;
+    position: fixed;
+    z-index: 99999999;
+    background-color: #ffcff1;
+}
+} 
+
+
 .booksmenu {
     margin-top: 0.5%;
     width: 85%;
     height: 100%;
     text-decoration: none;
-    color: black;
+    color: #ffcff1;
     float: right;
     display: inline-block;
 }
@@ -151,11 +133,11 @@ overflow: visible;
   and (max-device-width: 700px) 
   and (-webkit-min-device-pixel-ratio: 2) {     
 .booksmenu {
-    margin-top: 20%;
+    margin-top: 27%;
     width: 100%;
     height: 100%;
     text-decoration: none;
-    color: black;
+    color: #ffcff1;
     float: center;
     display: inline-block;
     position: sticky;
@@ -166,12 +148,12 @@ overflow: visible;
 /* Style the button that is used to open and close the collapsible content */
 
 button {
-    color: black;
+    color: #ffcff1;
     font-family: 'egypt';
     font-size: 4vh;
     border: none;
     border-radius: 200px;
-    background-color: #e4d00a;
+    background-color: mediumseagreen;
 }
 
 
@@ -181,12 +163,12 @@ button {
   and (max-device-width: 700px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
 button {
-    color: black;
+    color: #ffcff1;
     font-family: 'karrik';
     font-size: 3vh;
-    border: 1px solid white;
+    border: 1px solid #ffcff1;
     border-radius: 20px;
-    background-color: #e4d00a;
+    background-color: mediumseagreen;
 }
 }
 
@@ -223,7 +205,7 @@ button:hover {
 .collapsible {
     position: -webkit-sticky;
     position: sticky;
-    top: 12%;
+    top: 14%;
     height: 8.5vh;
     padding-left: 3%;
     padding-bottom: 1.5%;
@@ -314,8 +296,9 @@ padding: 0 15px ;
 }
 
 .content a4 {
-    color: white;
+    color: #ffcff1;
 }
+
 
 /* Style the collapsible slideshow container */
 .slideshow-container {
