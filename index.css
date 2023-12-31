@@ -181,7 +181,7 @@ button {
   and (max-device-width: 700px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
 button {
-    color: black;
+    color: red;
     font-family: 'karrik';
     font-size: 3vh;
     border: 1px solid white;
@@ -207,6 +207,8 @@ button:hover {
     top: 0%;
     height: 7vh;
     cursor: url("images/curs2.png"), pointer;
+    padding-left: 3%;
+    padding-bottom: 2%;
     width: 100%;
     text-align: left;
     outline: none;
