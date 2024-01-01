@@ -38,13 +38,48 @@
     box-sizing: border-box;
 }
 
-body {
-/*    background-color: #fdee00;*/
-  background-color: #ffcff1;
-
+html.body1 {
+    background-color: #ffcff1;
     color: black;
     cursor: url('images/curs2.png'), default;
 }
+html.body1 button {
+    color: #ffcff1;
+    background-color: mediumseagreen;
+}
+
+html.body2 {
+    background-color: #93c5ff;
+    color: black;
+    cursor: url('images/curs2.png'), default;
+}
+html.body2 button {
+    color: #93c5ff;
+    background-color: #ff4500;
+}
+
+html.body3 {
+    background-color: #bbef70;
+    color: black;
+    cursor: url('images/curs2.png'), default;
+}
+html.body3 button {
+    color: #bbef70;
+    background-color: #be0032;
+}
+
+html.body4 {
+    background-color: white;
+    color: black;
+    cursor: url('images/curs2.png'), default;
+}
+html.body4 button {
+    color: black;
+    background-color: #e4d00a;
+}
+
+
+
 
 .logo {
     width: 8vw;
@@ -113,7 +148,6 @@ overflow: visible;
     line-height: 3.5vh;
     position: fixed;
     z-index: 99999999;
-    background-color: #ffcff1;
 }
 } 
 
@@ -166,7 +200,7 @@ button {
     color: #ffcff1;
     font-family: 'karrik';
     font-size: 3vh;
-    border: 1px solid #ffcff1;
+    border: 1px solid transparent;
     border-radius: 20px;
     background-color: mediumseagreen;
 }
@@ -276,6 +310,11 @@ padding: 0 15px ;
     font-family: 'karrik';
     font-size: 13pt;
 }
+      
+      .content a3 {
+    font-family: 'karrikit';
+          font-size: 13pt;
+}
 }
 
 .content a {
@@ -296,7 +335,7 @@ padding: 0 15px ;
 }
 
 .content a4 {
-    color: #ffcff1;
+    color: transparent;
 }
 
 
@@ -384,96 +423,3 @@ padding: 0 15px ;
     cursor: url("images/left.png"), pointer;
 }
 
-@media screen and (max-width: 1280px) {
-  .titlemenu {
-    padding: 24px;
-    width: 100%;
-    font-family: 'machina';
-    font-size: 15pt;
-    line-height: 18pt;
-    text-decoration: none;
-    color: forestgreen;
-  }
-
-/* Screen adjustments for mobile versions
-   Second part of css styling */
-@media only screen 
-  and (min-device-width: 300px) 
-  and (max-device-width: 700px) 
-  and (-webkit-min-device-pixel-ratio: 2) {     
-.style {
-  display:inline-block;
-  width: 16.4%;
-  text-align: center;
-  color: black;
-  font-family: '1452';
-  font-size: 18px;
-  text-align: center;
-  left: -15px;
-  padding-top: 10px;
-  padding-bottom: 8px;
-  text-decoration: none;
-  border: 0.5px solid palegreen;
-  cursor: pointer;
-    border-radius: 25px;
-  background-color: palegreen;
-    z-index: 9999;
-}
-}
-
-    
-    .row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 33%; /* IE10 */
-  flex: 33%;
-  max-width: 33%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 0px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-
-
-@-webkit-keyframes AnimationName {
-  0% {
-    background-position: 33% 0%
-  }
-
-  50% {
-    background-position: 69% 100%
-  }
-
-  100% {
-    background-position: 32% 0%
-  }
-}
