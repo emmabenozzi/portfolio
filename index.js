@@ -1,3 +1,12 @@
+//color scheme changer
+$( document ).ready(function() {
+    var listOfClasses = ["body1","body2","body3", "body4"];
+    var randomNum = Math.floor(Math.random() * listOfClasses.length); 
+    $("html").addClass(listOfClasses[randomNum]);
+});
+
+
+
 
 // toggle collapse of specified content
 function toggleContent(content) {
@@ -64,3 +73,8 @@ function showSlides(n, no) {
   }
   x[slideIndex[no]-1].style.display = "block";  
 }
+
+
+
+
+
