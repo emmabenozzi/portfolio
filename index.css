@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: 'resistance';
-  src: url('fonts/Resistance générale.otf') format('opentype');
+  font-family: 'forma';
+  src: url('fonts/FormaDJRDisplay-MediumTRIAL.ttf') format('truetype');
 }
 
 @font-face {
@@ -59,13 +59,13 @@ html.body2 button {
 }
 
 html.body3 {
-    background-color: #bbef70;
+    background-color: #FF7F50;
     color: black;
     cursor: url('images/curs2.png'), default;
 }
 html.body3 button {
-    color: #bbef70;
-    background-color: #be0032;
+    color: #FF7F50;
+    background-color: #F0FFF0;
 }
 
 html.body4 {
@@ -208,13 +208,6 @@ button {
 
 button:hover {
     font-family: 'karrik';
-/*
-    color: black;
-    background-image: url(images/cx.png);
-    background-size: cover;
-    background-position: center;
-*/
-*/
 }
 
 .collapsible {
