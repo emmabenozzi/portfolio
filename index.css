@@ -100,6 +100,18 @@ html.body4 button {
     z-index: 0;
 }
 
+.abouttwo {
+    overflow: visible;
+    width: auto;
+    top: 17.5%;
+    left: 1.5%;
+    font-family: 'karrik';
+    font-size: 1.1vw;
+    line-height: 2.3vh;
+    position: fixed;
+    z-index: 0;
+}
+
 .contact2 {
     width: auto;
     left: 1.5%;
@@ -126,22 +138,24 @@ display:none;
 
 .about {
     display: none;
-overflow: visible;
-    width: 100%;
-    top: 2%;
-    left: 30%;
+}
+       
+.abouttwo {
+    width: auto;
+    height: 100%;
+    left: 2%;
+    top: 0%;
     font-family: 'karrik';
-    font-size: 3vw;
-    line-height: 3vh;
-    position: fixed;
-    z-index: 0;
+    color: black;
+    font-size: 4.7vw;
+    line-height: 3.5vh;
 }
   
 .contact2{
     width: auto;
     height: 14%;
     left: 2%;
-    top: 0%;
+    top: 4%;
     font-family: 'karrik';
     color: black;
     font-size: 4.7vw;
